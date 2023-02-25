@@ -15,7 +15,7 @@ st.subheader("Created by Siddharth Under the supervision of :red[Innomatics] Res
 
 
 
-Solar_prediction = pd.read_csv("C:/Users/ADMIN/Desktop/Data_Science_Internship/Project_1/SolarPrediction.csv", encoding='utf-8')
+Solar_prediction = pd.read_csv("SolarPrediction.csv")
 st.sidebar.title("Solar Prediction")
 option = st.sidebar.selectbox(
     'Select Your Chart',
